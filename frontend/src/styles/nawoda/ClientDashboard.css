@@ -1,0 +1,36 @@
+.CDashMainCont {
+    display: flex;
+    background-color: #ebebeb; /* Ash color */
+    width: 100%;
+    height: 100vh;
+}
+
+
+.clientDashboardContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.CDashBodyContainer {
+    width: 83%;
+    height: 100%;
+}
+
+.logoutBtn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0.05px solid #000000;
+    color: #000000;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoutBtn:hover {
+    background-color: #000000;
+    color: #7c7c7c;
+}

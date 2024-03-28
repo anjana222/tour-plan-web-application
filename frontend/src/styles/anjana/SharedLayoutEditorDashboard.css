@@ -1,0 +1,6 @@
+.SharedLayoutEditorDashMainCont {
+    display: flex;
+    background-color: #ebebeb; /* Change background color to red */
+    width: 100%;
+    height: 100vh;
+}

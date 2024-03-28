@@ -1,0 +1,120 @@
+.desresContainer {
+    /* background-color: aqua; */
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/journeyly-7f164.appspot.com/o/images%2Fothers%2Fticketback.jpg?alt=media&token=4b152c76-5d84-4f04-8406-eb5c3905843f);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 7%;
+    width: 100%;
+    color: black;
+    overflow: scroll;
+}
+
+.deresticketHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.desreseinnercontainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.desresformcont {
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 100px;
+    padding-top: 30px;
+}
+
+.desresform {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.073);
+}
+
+.desrestcktcont {
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desrestckt {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    border: 0.01px solid rgba(155, 218, 10, 0.712);
+}
+
+.desrestcktinner {
+    margin-top: 10px;
+    width: 540px;
+    height: 280px;
+    position: absolute;
+    text-align: start;
+    padding: 0 40px;
+    color: #000000;
+    font-family: 'Space Mono', monospace;
+}
+
+.qrcont {
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    right: 110px;
+    position: absolute;
+}
+
+.desrestckt img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.submitbtn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0.3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 200ms;
+}
+
+.rotate {
+    justify-content: center;
+    width: 250px;
+    position: absolute;
+    left: 570px;
+    top: 110px;
+    transform: rotate(270deg);
+}
+
+.submitbtn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.feedrotate {
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    z-index: 5;
+    background-color: rgb(0, 34, 49);
+    border: 0.3px solid rgb(0, 34, 49);
+    padding: 10px;
+    border-radius: 55px;
+}

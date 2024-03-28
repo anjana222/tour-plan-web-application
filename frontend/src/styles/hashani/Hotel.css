@@ -1,0 +1,133 @@
+* {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.hotelMainContainer {
+    width: 100%;
+    height: 100vh;
+    /* height: 100vh; */
+    background-color: #ffffff;
+    padding-top: 7%;
+    color: black;
+
+}
+
+.hotelInnerContainer {
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b8b8b8;
+}
+
+.hotelHeader {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.hotelContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* padding: 0 5%; */
+    right: 10%;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #b8b8b8; 
+}
+
+.hotelSearch {
+    width: 25%;
+    height: 500px;
+    background-color: rgb(234, 237, 199);
+    border: 1px solid #00000031;
+    /* border-radius: 15px; */
+    padding: 20px;
+
+}
+
+.hotelBodyContainer {
+    width: 68%;
+    height: 500px;
+    /* background-color: antiquewhite; */
+    overflow: scroll;
+}
+
+.hotelBodyContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 
+.hotelCardBody{
+    background-color: blueviolet;
+    width: 80%;
+
+} */
+
+.hotelImageContainer {
+    width: 20%;
+    height: 100%;
+    /* background-color: lawngreen; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    /* background-image: url(); */
+}
+
+.hotelCardContainer {
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(234, 237, 199);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #00000031;
+    transition: 0.3s;
+}
+
+.hotelCardContainer:hover {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hotelImageContainer {
+    /* background-color: azure; */
+    width: 30%;
+    height: max-content;
+    overflow: hidden;
+    display: block;
+    /* border-radius: 25px; */
+}
+
+.hotelTextContainer {
+    /* background-color: blueviolet; */
+    width: 465px;
+    margin-left: 3%;
+    height: 100%;
+    display: block;
+}
+
+.hotelCardImg {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hotelSearchInput {
+    width: 100%;
+    height: 40px;
+    border: 5px solid #00000031;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #b8b8b8(177, 238, 245);
+
+}
